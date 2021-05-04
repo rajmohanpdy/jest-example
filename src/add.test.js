@@ -23,6 +23,7 @@ it('add(NaN, 42) should return NaN', () => {
 it('add(Infinity, Infinity) should return Infinity', () => {
   expect(add(Infinity, Infinity)).toBe(Infinity);
 });
+// test
 
 it('add(-Infinity, -Infinity) should return -Infinity', () => {
   expect(add(-Infinity, -Infinity)).toBe(-Infinity);
